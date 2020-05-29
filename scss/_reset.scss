@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.active {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.title-underline {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--hint);
+  text-align: center;
+  justify-content: center;
+
+}

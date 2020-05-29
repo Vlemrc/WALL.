@@ -1,0 +1,13 @@
+:root {
+  --font-family: "Muli", sans-serif;
+  --very-light:#e0d6e2;
+  --light: rgb(171, 120, 212);
+  --primary: #8a46a5;
+  --dark: #450d53;
+  --text: #333;
+  --background: #fafafa;
+  --hint: #999;
+  --border: #ddd;
+  --divider:#ecf0f1;
+  --box-shadow:0 18px 18px 0 rgba(60,64,67,.3), 0 10px 25px 18px rgba(60,64,67,.15);
+  --box-shadow2:0 18px 18px 0 rgba(49, 51, 53, 0.3), 0 10px 25px 18px rgba(26, 27, 27, 0.15); }
