@@ -39,6 +39,9 @@
   border-bottom: 1px solid var(--hint);
   text-align: left;
   justify-content: left;
+  @include xs {
+    text-align: center;
+  }
 }
 
 .banniere {
