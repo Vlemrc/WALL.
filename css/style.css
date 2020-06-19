@@ -76,6 +76,15 @@ img {
   text-align: center;
   justify-content: center; }
 
+.title-underline3 {
+  font-size: 5.3rem;
+  max-width: 1200px;
+  margin-bottom: 7rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--hint);
+  text-align: left;
+  justify-content: left; }
+
 .banniere {
   max-height: 175px;
   width: 100%;
@@ -121,7 +130,7 @@ header {
     @media (max-width: 480px) {
       header ul {
         text-align: center;
-        padding-left: 2.5rem; } }
+        flex-flow: column; } }
     header ul li {
       padding: 1.5rem; }
       header ul li a {
@@ -187,6 +196,7 @@ nav {
 .content {
   background: var(--divider);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 0; }
@@ -204,6 +214,9 @@ nav {
       flex-direction: column;
       align-items: center;
       box-shadow: var(--box-shadow); }
+      @media (max-width: 480px) {
+        .content .articles-container .article {
+          text-align: center; } }
       .content .articles-container .article img {
         height: 9rem;
         width: 9rem;

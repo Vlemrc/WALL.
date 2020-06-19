@@ -25,7 +25,7 @@ header {
     list-style: none;
     @include xs {
       text-align: center;
-      padding-left:2.5rem;
+      flex-flow: column;
   }
     li {
       padding:1.5rem;
@@ -107,6 +107,7 @@ nav {
 .content {
   background: var(--divider);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 0;
@@ -124,6 +125,9 @@ nav {
       flex-direction: column;
       align-items: center;
       box-shadow: var(--box-shadow);
+      @include xs {
+        text-align: center;
+      }
       img {
         height: 9rem;
         width: 9rem;
