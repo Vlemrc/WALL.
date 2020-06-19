@@ -137,9 +137,6 @@ nav {
       h2 {
         margin-top: 2rem;
         margin-bottom: 0;
-        @include xs {
-          text-align: center;
-        }
       }
       .article-author {
         color: var(--hint);

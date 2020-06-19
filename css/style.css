@@ -229,9 +229,6 @@ nav {
       .content .articles-container .article h2 {
         margin-top: 2rem;
         margin-bottom: 0; }
-        @media (max-width: 480px) {
-          .content .articles-container .article h2 {
-            text-align: center; } }
       .content .articles-container .article .article-author {
         color: var(--hint);
         margin-bottom: 0rem; }
