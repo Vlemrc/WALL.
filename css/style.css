@@ -50,6 +50,7 @@ a {
 img {
   max-width: 100%; }
 
+/* Landscape phones and down */
 .eren {
   min-height: 550px; }
 
@@ -84,6 +85,9 @@ img {
   border-bottom: 1px solid var(--hint);
   text-align: left;
   justify-content: left; }
+  @media (max-width: 480px) {
+    .title-underline3 {
+      text-align: center; } }
 
 .banniere {
   max-height: 175px;
@@ -225,6 +229,9 @@ nav {
       .content .articles-container .article h2 {
         margin-top: 2rem;
         margin-bottom: 0; }
+        @media (max-width: 480px) {
+          .content .articles-container .article h2 {
+            text-align: center; } }
       .content .articles-container .article .article-author {
         color: var(--hint);
         margin-bottom: 0rem; }
