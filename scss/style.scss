@@ -82,15 +82,12 @@ nav {
     color:var(--light);
     padding:1rem;
     h1 {
-      background:white;
-      border:2px solid black;
+      text-shadow:5px 5px var(--very-light);
       padding-left: 1rem;
       padding-right: 1rem;
       font-size: 4rem;
       margin-bottom: 2rem;
       @include xs {
-        background: none;
-        border: none;
         padding-right: 0;
         padding-left: 0;
       }
