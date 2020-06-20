@@ -101,6 +101,26 @@ nav {
   }
 }
 
+.spoiler {
+  flex:auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:white;
+  padding: 3rem;
+  &-content {
+    max-width:800px;
+    border:3px solid red;
+    text-align: center;
+    color:red;
+    padding:2rem;
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}
+
 .content {
   background: var(--divider);
   display: flex;
