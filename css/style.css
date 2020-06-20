@@ -200,9 +200,10 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: linear-gradient(to bottom, white, var(--background));
   padding: 3rem; }
   .spoiler-content {
+    background: white;
     max-width: 800px;
     border: 3px solid red;
     text-align: center;
@@ -246,10 +247,13 @@ nav {
       .content .articles-container .article .article-author {
         color: var(--hint);
         margin-bottom: 0rem; }
+      .content .articles-container .article .article-date {
+        color: var(--hint);
+        margin-bottom: 3rem; }
       .content .articles-container .article .article-content {
         max-width: 550px;
         white-space: pre-line;
-        margin-bottom: 3rem; }
+        margin-bottom: 1rem; }
 
 .cover {
   padding: 0rem 0 3rem;
@@ -289,6 +293,27 @@ nav {
       .appreciate-list {
         display: flex;
         flex-direction: column; } }
+  .appreciate-affiche {
+    margin-top: 17rem;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 1rem; }
+    .appreciate-affiche img {
+      border-radius: 0.5rem; }
+  .appreciate-elem2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 600px;
+    justify-content: center;
+    align-items: center; }
+    @media (max-width: 480px) {
+      .appreciate-elem2 {
+        width: 100%; } }
+    .appreciate-elem2-text {
+      padding: 2rem;
+      text-align: center; }
   .appreciate-elem {
     border: 1px solid black;
     background: white;
