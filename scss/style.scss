@@ -198,7 +198,78 @@ nav {
 
 }
 
-/* all */
+/* PACK */
+
+.pack {
+  background:var(--very-light);
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:0;
+  .pack-container {
+    max-width:1000px;
+    width:100%;
+    margin:10rem 0 10rem 0;
+    padding-bottom:0;
+    p {
+      text-align:center;
+      padding-bottom:2rem;
+      padding-top: 2rem;
+    }
+    h2 {
+      text-align:center;
+      font-size:5rem;
+      @include xs {
+        font-size:4rem;
+      }
+    }
+    .starter {
+      background:white;
+      padding:0 6rem;
+      border-radius:0.3rem;
+      display:flex;
+      flex-direction: column;
+      margin-bottom:0rem;
+      align-items: center;
+      box-shadow:0 18px 18px 0 var(--dark), 0 10px 25px 18px var(--light);
+      &-list1 {
+        display:flex;
+        flex-flow:row nowrap;
+        justify-content: center;
+        align-items:center;
+        background:white;
+        padding-top: 3rem;
+        @include xs {
+          flex-direction:column;
+        }
+      }
+      &-list2 {
+        display:flex;
+        flex-flow:row nowrap;
+        justify-content: center;
+        align-items:center;
+        background:white;
+        padding-bottom: 3rem;
+        @include xs {
+          flex-direction:column;
+        }
+      }
+    &-elem {
+      width:450px;
+      padding-left:0.4rem;
+      img {
+      border-radius: 0.3rem;
+      }
+      @include xs {
+        width:300px;
+      }
+    }
+    }
+  }
+}
+
+/* affichage fonds d'écrans */
 
 .appreciate {
   padding:5rem 1rem 5rem 1rem;
