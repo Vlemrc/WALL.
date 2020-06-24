@@ -99,6 +99,9 @@ img {
   max-height: 700px;
   width: 100%; }
 
+.fab fa-twitter fa-4x {
+  color: #1f89e0; }
+
 /* Landscape phones and down */
 :root {
   --font-family: "Muli", sans-serif;
@@ -387,6 +390,95 @@ nav {
     .appreciate-elem-text {
       padding: 2rem;
       text-align: center; }
+
+/* Banner home */
+.banner {
+  box-sizing: border-box;
+  display: flex;
+  background: #fafafa;
+  width: 100%;
+  justify-content: center;
+  overflow: auto; }
+  .banner-container {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 3rem;
+    width: 1000px; }
+    @media (max-width: 480px) {
+      .banner-container {
+        flex-direction: column-reverse; } }
+    .banner-container-list {
+      max-width: 700px;
+      padding-right: 3rem; }
+    .banner-container-elem {
+      padding-bottom: 2rem; }
+      .banner-container-elem h2 {
+        font-weight: 700;
+        padding-top: 1rem;
+        padding-left: 3rem;
+        color: black;
+        font-size: 1.4rem; }
+      .banner-container-elem li {
+        border: 1px solid var(--border);
+        background: white;
+        margin-bottom: 2rem; }
+      .banner-container-elem h5 {
+        font-weight: 700;
+        padding-top: 1rem;
+        padding-left: 0rem;
+        color: black;
+        font-size: 2rem; }
+    .banner-container-link {
+      padding: 0;
+      right: 180px;
+      position: fixed;
+      width: 300px; }
+      @media (max-width: 480px) {
+        .banner-container-link {
+          position: relative;
+          text-align: center;
+          right: 0; } }
+      .banner-container-link a {
+        font-size: 1.4rem;
+        padding-left: 4rem;
+        font-weight: 700;
+        color: var(--primary);
+        padding-top: 0.95rem; }
+        .banner-container-link a:hover {
+          color: var(--dark);
+          text-decoration: underline;
+          transition: 0.4s; }
+      .banner-container-link h2, .banner-container-link h3 {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: black; }
+      .banner-container-link h4 {
+        font-size: 1.2rem;
+        color: var(--hint); }
+      .banner-container-link p {
+        color: var(--hint);
+        font-size: 1rem; }
+      .banner-container-link li {
+        display: flex;
+        flex-flow: row nowrap; }
+      .banner-container-link-social h2 {
+        font-size: 1rem;
+        color: var(--hint);
+        margin-bottom: 0;
+        padding-bottom: 1rem; }
+      .banner-container-link-social a {
+        font-size: 1rem;
+        color: var(--hint);
+        padding: 0;
+        font-weight: 400; }
+        .banner-container-link-social a:hover i {
+          color: var(--primary); }
+        .banner-container-link-social a:hover {
+          color: var(--primary); }
+      .banner-container-link-social i {
+        font-size: 1rem;
+        color: var(--hint);
+        margin-top: 1rem; }
 
 /* Phone home */
 .phoneaccueil {

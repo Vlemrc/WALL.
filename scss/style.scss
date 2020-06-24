@@ -334,6 +334,119 @@ nav {
   }
 }
 
+/* Banner home */
+
+.banner {
+  box-sizing:border-box;
+  display:flex;
+  background:#fafafa;
+  width:100%;
+  justify-content: center;
+  overflow:auto;
+  
+    &-container {
+    display:flex;
+    flex-flow:row nowrap;
+    padding:3rem;
+    width:1000px;
+    @include xs {
+      flex-direction: column-reverse;
+    }
+    &-list {
+      max-width:700px;
+      padding-right: 3rem;
+
+    }
+    &-elem {
+      padding-bottom: 2rem;
+      h2 {
+        font-weight: 700;
+        padding-top: 1rem;
+        padding-left: 3rem;
+        color:black;
+        font-size: 1.4rem;
+      }
+      li {
+        border:1px solid var(--border);
+        background:white;
+        margin-bottom: 2rem;
+      }
+      h5 {
+        font-weight:700;
+        padding-top:1rem;
+        padding-left:0rem;
+        color:black;
+        font-size:2rem;
+      }
+    }
+    &-link {
+      padding:0;
+      right:180px;
+      position:fixed;
+      width:300px;
+      @include xs {
+        position:relative;
+        text-align:center;
+        right:0;
+      }
+      a {
+        font-size: 1.4rem;
+        padding-left: 4rem;
+        font-weight: 700;
+        color:var(--primary);
+        padding-top:0.95rem;
+        &:hover {
+          color:var(--dark);
+          text-decoration: underline;
+          transition:0.4s;
+        }
+      }
+      h2, h3 {
+        font-size:1.4rem;
+        font-weight: 700;
+        color:black;
+      }
+      h4 {
+        font-size:1.2rem;
+        color:var(--hint);
+      }
+      p {
+          color:var(--hint);
+        font-size:1rem;
+      }
+      li {
+        display:flex;
+        flex-flow: row nowrap;
+      }
+      &-social {
+        h2 {
+          font-size:1rem;
+          color:var(--hint);
+          margin-bottom: 0;
+          padding-bottom: 1rem;
+        }
+        a {
+          font-size:1rem;
+          color:var(--hint);
+          padding:0;
+          font-weight: 400;
+          &:hover i {
+            color:var(--primary);
+          }
+          &:hover {
+            color:var(--primary);
+          }
+        }
+        i {
+          font-size:1rem;
+          color:var(--hint);
+          margin-top:1rem;
+        }
+      }
+    }
+  }
+}
+
 /* Phone home */
 
 .phoneaccueil {
