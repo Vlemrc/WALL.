@@ -345,6 +345,10 @@ nav {
   padding: 5rem 1rem 5rem 1rem;
   background: var(--background);
   border-bottom: 1px solid var(--border); }
+  .appreciate-banaccueil {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; }
   .appreciate-separator {
     margin: 1rem auto;
     height: 2px;
@@ -352,8 +356,7 @@ nav {
     background: #333; }
   .appreciate-list {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between; }
+    flex-flow: row nowrap; }
     @media (max-width: 480px) {
       .appreciate-list {
         display: flex;
@@ -366,6 +369,37 @@ nav {
     border-radius: 1rem; }
     .appreciate-affiche img {
       border-radius: 0.5rem; }
+  .appreciate-banaccueil {
+    display: flex;
+    flex-direction: column;
+    width: 50%; }
+  .appreciate-elem4 {
+    border: 1px solid black;
+    background: white;
+    margin: 1rem;
+    flex: 1;
+    max-width: 300px;
+    margin-left: 2.7rem; }
+    .appreciate-elem4-img {
+      max-width: 100%;
+      max-height: 600px; }
+    .appreciate-elem4-text {
+      padding: 2rem;
+      text-align: center; }
+  .appreciate-elem3 {
+    border: 1px solid black;
+    background: white;
+    margin: 1rem;
+    flex: 1;
+    width: 760px; }
+    @media (max-width: 480px) {
+      .appreciate-elem3 {
+        width: 330px; } }
+    .appreciate-elem3-img {
+      max-height: 600px; }
+    .appreciate-elem3-text {
+      padding: 2rem;
+      text-align: center; }
   .appreciate-elem2 {
     display: flex;
     flex-direction: column;
