@@ -102,6 +102,9 @@ img {
     .fdepc {
       height: 250px; } }
 
+.borderpack {
+  border: 3px solid black; }
+
 /* Landscape phones and down */
 :root {
   --font-family: "Muli", sans-serif;
@@ -365,7 +368,7 @@ nav {
     margin-top: 17rem;
     width: 300px;
     height: 300px;
-    border: 3px solid black;
+    box-shadow: var(--box-shadow);
     border-radius: 1rem; }
     .appreciate-affiche img {
       border-radius: 0.5rem; }

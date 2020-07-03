@@ -298,7 +298,7 @@ nav {
     margin-top: 17rem;
     width: 300px;
     height: 300px;
-    border:3px solid black;
+    box-shadow: var(--box-shadow);
     border-radius: 1rem;
     img {
       border-radius: 0.5rem;
