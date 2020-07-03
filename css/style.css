@@ -98,6 +98,9 @@ img {
 .fdepc {
   height: 450px;
   width: 100%; }
+  @media (max-width: 480px) {
+    .fdepc {
+      height: 250px; } }
 
 /* Landscape phones and down */
 :root {

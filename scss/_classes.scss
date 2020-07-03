@@ -55,5 +55,8 @@
 .fdepc {
   height:450px;
   width:100%;
+  @include xs {
+    height:250px;
+  }
 }
 
