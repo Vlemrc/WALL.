@@ -96,11 +96,8 @@ img {
   border-bottom: 1px solid black; }
 
 .fdepc {
-  max-height: 700px;
+  height: 450px;
   width: 100%; }
-
-.fab fa-twitter fa-4x {
-  color: #1f89e0; }
 
 /* Landscape phones and down */
 :root {
