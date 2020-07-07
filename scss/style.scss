@@ -127,6 +127,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-top:2px solid var(--dark);
   align-items: center;
   padding-bottom: 0;
   .articles-container {
@@ -385,7 +386,6 @@ nav {
   width:100%;
   justify-content: center;
   overflow:auto;
-  
     &-container {
     display:flex;
     flex-flow:row nowrap;
@@ -407,6 +407,21 @@ nav {
         padding-left: 3rem;
         color:black;
         font-size: 1.4rem;
+      }
+      .espacetitre {
+        display:flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+      a {
+        color:black;
+        font-size: 1.4rem;
+        padding-right:2rem;
+        font-weight: 700;
+        &:hover {
+          text-decoration: underline;
+        }
       }
       li {
         border:1px solid var(--border);

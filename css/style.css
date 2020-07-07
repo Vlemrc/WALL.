@@ -59,6 +59,10 @@ img {
 .tapion {
   min-height: 600px; }
 
+.vogue {
+  height: 500px;
+  width: 100%; }
+
 .whitz {
   border-bottom: 1px solid black; }
 
@@ -225,6 +229,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-top: 2px solid var(--dark);
   align-items: center;
   padding-bottom: 0; }
   .content .articles-container {
@@ -456,6 +461,18 @@ nav {
         padding-left: 3rem;
         color: black;
         font-size: 1.4rem; }
+      .banner-container-elem .espacetitre {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center; }
+      .banner-container-elem a {
+        color: black;
+        font-size: 1.4rem;
+        padding-right: 2rem;
+        font-weight: 700; }
+        .banner-container-elem a:hover {
+          text-decoration: underline; }
       .banner-container-elem li {
         border: 1px solid var(--border);
         background: white;
