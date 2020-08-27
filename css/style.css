@@ -23,6 +23,9 @@
   justify-content: center;
   text-shadow: 1px 1px 2px var(--very-light); }
 
+.gras {
+  font-weight: 700; }
+
 html {
   font-size: 62.5%; }
 
@@ -66,9 +69,6 @@ img {
 .whitz {
   border-bottom: 1px solid black; }
 
-.gras {
-  font-weight: 700; }
-
 .espacedroite {
   margin-right: 2rem; }
 
@@ -102,13 +102,17 @@ img {
 
 .fdepc {
   height: 450px;
-  width: 100%; }
+  width: 100%;
+  border-bottom: 1px solid black; }
   @media (max-width: 480px) {
     .fdepc {
       height: 250px; } }
 
 .borderpack {
   border: 0.5px solid var(--dark); }
+
+.pack-title {
+  color: white; }
 
 /* Landscape phones and down */
 :root {
@@ -290,7 +294,7 @@ nav {
 
 /* PACK */
 .pack {
-  background: #fcdced;
+  background: #740000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -319,7 +323,7 @@ nav {
       flex-direction: column;
       margin-bottom: 0rem;
       align-items: center;
-      box-shadow: 0 18px 18px 0 #ff69b9, 0 10px 25px 18px #ff9ed2; }
+      box-shadow: 0 18px 18px 0 #270000, 0 10px 25px 18px #520000; }
       .pack .pack-container .starter-list1 {
         display: flex;
         flex-flow: row nowrap;
