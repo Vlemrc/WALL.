@@ -202,7 +202,7 @@ nav {
 /* PACK */
 
 .pack {
-  background:rgb(116, 0, 0);
+  background:rgb(85, 1, 180);
   display:flex;
   flex-direction:column;
   justify-content: center;
@@ -233,7 +233,7 @@ nav {
       flex-direction: column;
       margin-bottom:0rem;
       align-items: center;
-      box-shadow:0 18px 18px 0 rgb(39, 0, 0), 0 10px 25px 18px rgb(82, 0, 0);
+      box-shadow:0 18px 18px 0 rgb(30, 0, 39), 0 10px 25px 18px rgb(102, 0, 122);
       &-list1 {
         display:flex;
         flex-flow:row nowrap;
